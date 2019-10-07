@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+
+{%block content%}
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-3 px-1 " id="sticky-sidebar">
+          <ul class="list-group">
+            {% for course in courses %}
+              <li class={% if course.name == "Python" %} "list-group-item active" {%else%} "list-group-item" {%endif%}>{{course.name}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% for course in courses %}
+          <div class="col-9 px-1" id="main" style = {% if course.name == "Python" %} "display:block" {%else%} "display:none" {%endif%} >
+              <h3>This is for {{course.name}}</h1>
+          </div>
+        {% endfor %}
+        
+    </div>
+  </div>
+{%endblock%}
