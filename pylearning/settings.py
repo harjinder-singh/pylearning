@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'pylearning.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'harry',
-        'USER': 'harry',
-        'PASSWORD': 'harry',
-        'HOST': 'localhost',
+        'NAME': 'sjzzfbubqlvauf',
+        'USER': 'sjzzfbubqlvauf',
+        'PASSWORD': 'a80007e59b67b991cea823ce45410cfb1e83893ad59e02d81bf0ba376d97ae2d',
+        'HOST': 'ec2-107-20-198-176.compute-1.amazonaws.com',
         'PORT' : '5432'
     }
 }
