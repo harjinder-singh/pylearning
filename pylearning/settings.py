@@ -25,7 +25,7 @@ SECRET_KEY = ')f#i&vxxx#nm!@%jv^2grt!m-#^fli(=ff)@$b=h8_t3s-55*h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pylearningapp.herokuapp.com']
 
 
 # Application definition
