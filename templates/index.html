@@ -3,7 +3,7 @@
 {%block content%}
 <div class="container">
 
-    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">{{user.first_name}}'s Gallery</h1>
+    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">{%if user.first_name%}{{user.first_name}}'s Gallery {%else%} User's Gallary{%endif%}</h1>
   
     <hr class="mt-2 mb-5">
   
